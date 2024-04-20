@@ -159,7 +159,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("https://raw.githubusercontent.com/yochi2545/MorYa/main/models/model.json")
+    model = await tf.loadLayersModel("https://raw.githubusercontent.com/yochi2545/MorYaV2/main/models/model.json")
     console.log("model loaded..");
 })();
 
